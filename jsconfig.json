@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "_mocks/*": ["_mocks/*"],
+      "src/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
